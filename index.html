@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"> 
+<title>Language</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jsfiles/9lessons.code.js"></script>
+ <SCRIPT language=JavaScript src="jsfiles/common.js"></SCRIPT>
+
+    
+    
+<style>
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+}
+#update
+{
+width:450px; height:60px;
+border:solid 2px #006699;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+
+}
+#button
+{
+background-color:#006699;
+color:#ffffff;
+font-size:13px;
+font-weight:bold;
+padding:4px;
+}
+
+#update
+{
+font-size:14px;
+
+}
+
+
+</style>
+</head>
+
+<body>
+<script type="text/javascript"> 
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script> 
+<!-- END BuySellAds.com Ad Code --> 
+<div style="margin:50px; padding:10px; background-color:#f2f2f2; width:460px;margin-left:200px">
+<b>Select Language  </b><select onchange='switchLang(this.value)' name='lansel' class="lang"> 
+                         
+                          <option value="english" selected="selected">English</option> 
+                          <option value="hindi" >Hindi</option> 
+						   <option value="telugu">Telugu</option> 
+                           <option value="tamil"  >Tamil</option> 
+						    <option value="malayalam">Malayalam</option> 
+                          <option value="kannada" >Kannada</option> 
+                          <option value="bengali"  >Bengali</option> 
+                          <option value="punjabi"  >Punjabi</option> 
+                          <option value="gujarathi"  >Gujarathi</option> 
+                          
+                         
+  </select> <br />
+<textarea name="update" id="update" charset="utf-8" onKeyPress="javascript:convertThis(event)" onKeyDown="toggleKBMode(event)"></textarea>
+</div>
+
+</body>
+</html>
